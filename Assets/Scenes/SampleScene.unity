@@ -295,6 +295,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa56c13f99601a747abdda9ddd9a4dbd, type: 3}
+--- !u!137 &385682818 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7757736258455533359, guid: fa56c13f99601a747abdda9ddd9a4dbd,
+    type: 3}
+  m_PrefabInstance: {fileID: 385682817}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,6 +419,21 @@ PrefabInstance:
     - target: {fileID: 5050172961005731641, guid: 3039884b3ed8f354da818f7b27b88b17,
         type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5050172961025882000, guid: 3039884b3ed8f354da818f7b27b88b17,
+        type: 3}
+      propertyPath: blueprintId
+      value: avtr_7ea32b58-0a74-44b9-bd6c-3998f46db29a
+      objectReference: {fileID: 0}
+    - target: {fileID: 5050172961025882000, guid: 3039884b3ed8f354da818f7b27b88b17,
+        type: 3}
+      propertyPath: fallbackStatus
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5050172961025882000, guid: 3039884b3ed8f354da818f7b27b88b17,
+        type: 3}
+      propertyPath: completedSDKPipeline
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5050172961025882002, guid: 3039884b3ed8f354da818f7b27b88b17,
@@ -600,22 +621,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  ViewPosition: {x: 0, y: 1.6, z: 0.2}
+  ViewPosition: {x: 0, y: 1.3405063, z: 0.102957904}
   Animations: 0
   ScaleIPD: 1
   lipSync: 0
   lipSyncJawBone: {fileID: 0}
   lipSyncJawClosed: {x: 0, y: 0, z: 0, w: 1}
   lipSyncJawOpen: {x: 0, y: 0, z: 0, w: 1}
-  VisemeSkinnedMesh: {fileID: 0}
+  VisemeSkinnedMesh: {fileID: 385682818}
   MouthOpenBlendShapeName: Facial_Blends.Jaw_Down
-  VisemeBlendShapes: []
+  VisemeBlendShapes:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - -none-
   unityVersion: 
   portraitCameraPositionOffset: {x: 0, y: 0, z: 0}
   portraitCameraRotationOffset: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-  customExpressions: 0
-  expressionsMenu: {fileID: 0}
-  expressionParameters: {fileID: 0}
+  customExpressions: 1
+  expressionsMenu: {fileID: 11400000, guid: 024fb8ef5b3988c46b446863c92f4522, type: 2}
+  expressionParameters: {fileID: 11400000, guid: 03a6d797deb62f0429471c4e17ea99a7,
+    type: 2}
   enableEyeLook: 0
   customEyeLookSettings:
     eyeMovement:
