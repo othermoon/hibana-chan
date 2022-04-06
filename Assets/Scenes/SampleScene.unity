@@ -141,17 +141,17 @@ PrefabInstance:
     - target: {fileID: 6672006502242606156, guid: 8064bd9a6a0d8a34bb62e91464a29bf7,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.23181006
+      value: 0.29817727
       objectReference: {fileID: 0}
     - target: {fileID: 6672006502242606156, guid: 8064bd9a6a0d8a34bb62e91464a29bf7,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.23181005
+      value: 0.29817724
       objectReference: {fileID: 0}
     - target: {fileID: 6672006502242606156, guid: 8064bd9a6a0d8a34bb62e91464a29bf7,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.23180997
+      value: 0.29817715
       objectReference: {fileID: 0}
     - target: {fileID: 6672006502242606156, guid: 8064bd9a6a0d8a34bb62e91464a29bf7,
         type: 3}
@@ -225,17 +225,17 @@ PrefabInstance:
     - target: {fileID: 7757736258461230593, guid: fa56c13f99601a747abdda9ddd9a4dbd,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.005
+      value: 0.009145783
       objectReference: {fileID: 0}
     - target: {fileID: 7757736258461230593, guid: fa56c13f99601a747abdda9ddd9a4dbd,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.005
+      value: 0.0076862667
       objectReference: {fileID: 0}
     - target: {fileID: 7757736258461230593, guid: fa56c13f99601a747abdda9ddd9a4dbd,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.005
+      value: 0.0076862667
       objectReference: {fileID: 0}
     - target: {fileID: 7757736258461230593, guid: fa56c13f99601a747abdda9ddd9a4dbd,
         type: 3}
@@ -245,7 +245,7 @@ PrefabInstance:
     - target: {fileID: 7757736258461230593, guid: fa56c13f99601a747abdda9ddd9a4dbd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0117
+      value: -0.0074
       objectReference: {fileID: 0}
     - target: {fileID: 7757736258461230593, guid: fa56c13f99601a747abdda9ddd9a4dbd,
         type: 3}
@@ -289,12 +289,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa56c13f99601a747abdda9ddd9a4dbd, type: 3}
---- !u!137 &385682818 stripped
-SkinnedMeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 7757736258455533359, guid: fa56c13f99601a747abdda9ddd9a4dbd,
-    type: 3}
-  m_PrefabInstance: {fileID: 385682817}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &530319568 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 388c58f2b7561b245837fc334de2f62a,
@@ -504,28 +498,28 @@ MonoBehaviour:
   ViewPosition: {x: 0, y: 1.3405063, z: 0.102957904}
   Animations: 0
   ScaleIPD: 1
-  lipSync: 0
+  lipSync: 3
   lipSyncJawBone: {fileID: 0}
   lipSyncJawClosed: {x: 0, y: 0, z: 0, w: 1}
   lipSyncJawOpen: {x: 0, y: 0, z: 0, w: 1}
-  VisemeSkinnedMesh: {fileID: 385682818}
+  VisemeSkinnedMesh: {fileID: 5050172961558133389}
   MouthOpenBlendShapeName: Facial_Blends.Jaw_Down
   VisemeBlendShapes:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - -none-
+  - VRC.v_sil
+  - VRC.v_PP
+  - VRC.v_FF
+  - VRC.v_TH
+  - VRC.v_DD
+  - VRC.v_kk
+  - VRC.v_CH
+  - VRC.v_SS
+  - VRC.v_nn
+  - VRC.v_RR
+  - VRC.v_aa
+  - VRC.v_E
+  - VRC.v_ih
+  - VRC.v_oh
+  - VRC.v_ou
   unityVersion: 2019.4.31f1
   portraitCameraPositionOffset: {x: 0, y: 0, z: 0}
   portraitCameraRotationOffset: {x: 0, y: 1, z: 0, w: -0.00000004371139}
